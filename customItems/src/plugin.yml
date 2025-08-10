@@ -1,0 +1,9 @@
+name: customItems
+main: code.customItemCore
+version: 0.1
+api-version: 1.16
+depend: [API]
+commands:
+  giveCustomItem:
+    description: "Gives the user the specified item with internal id"
+    usage: "/giveCustomItem <ITEM ID> [Target User]"
