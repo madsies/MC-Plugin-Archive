@@ -1,0 +1,26 @@
+name: PlayerClasses
+version: 1.0
+main: dev.elpis.playerclasses.PlayerClasses
+api-version: 1.18
+authors: [ madsies ]
+depends: [ElpisCore]
+description: Classes for halcyon server
+commands:
+  classlevel:
+    description: Changes a user's current class level
+    usage: /classlevel <set/add/remove> [value] {player}
+  classinfo:
+    description: Shows information about a players class
+    usage: /classinfo <player>
+  classexperience:
+    description: Changes a user's current class experience
+    usage: /classexperience <set/add/remove> [value] {player}
+  setclass:
+    description: Sets a user's class
+    usage: /setclass <damage/healer/tank> {player}
+  skilltree:
+    description: Opens skill tree
+    usage: /skilltree
+  selectclass:
+    description: GUI for a user to select their class
+    usage: /selectclass
