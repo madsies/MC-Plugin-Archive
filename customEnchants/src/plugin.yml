@@ -1,0 +1,30 @@
+main: dev.eredin.customEnchants
+name: customEnchants
+version: 0.1
+api-version: 1.16
+depend: [API]
+commands:
+  trash:
+    desciption: "A trash can to delete items"
+    usage: "/trash"
+  blocksMined:
+    description: "Admin command"
+    usage: "/changeBlocksMined <mode> <player> <amount>"
+  shards:
+    description: "Displays a user's amount of shards"
+    usage: "/shards <name>"
+  fixPick:
+    description: "unfucks the pickaxe"
+    usage: "/refresh"
+  grimoire:
+    description: "asta"
+    usage: "/grimoire"
+  bmLeaderboard:
+    description: "A leaderboard showing blocks mined"
+    usage: "/bmLeaderboad <page>"
+  shard:
+    description: "Allows admins to edit player's shard counts"
+    usage: "/shard <mode> <player> <amount>"
+  messageToggles:
+    description: "Lets the user toggle messages for mining."
+    usage: "/messageToggles"
