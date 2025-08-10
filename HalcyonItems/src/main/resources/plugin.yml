@@ -1,0 +1,26 @@
+name: HalcyonItems
+version: '${project.version}'
+main: dev.halcyon.items.halcyonitems.HalcyonItems
+api-version: 1.18
+authors: [ madsies ]
+commands:
+  giveweapon:
+    usage:
+      /giveweapon [ID] <iLevel> perk...
+    description:
+      gives a weapon
+  givearmour:
+    usage:
+      /giveArmour [ID] <iLevel> perk...
+    description:
+      gives armour
+  getitemdata:
+    description:
+      debug command
+    usage:
+      /getitemdata
+  itemcreator:
+    description:
+      creates a new item, admin command
+    usage:
+      /itemcreator <create/edit/delete/view> .....

@@ -1,0 +1,6 @@
+dev\halcyon\stats\halcyonstats\commands\playerStats.class
+dev\halcyon\stats\halcyonstats\commands\playerJoin.class
+dev\halcyon\stats\halcyonstats\events\itemSwap.class
+dev\halcyon\stats\halcyonstats\HalcyonStats$1.class
+dev\halcyon\stats\halcyonstats\HalcyonStats$2.class
+dev\halcyon\stats\halcyonstats\HalcyonStats.class

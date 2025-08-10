@@ -1,0 +1,12 @@
+name: HalcyonStats
+version: '${project.version}'
+main: dev.halcyon.stats.halcyonstats.HalcyonStats
+api-version: 1.18
+authors: [ madsies ]
+depends: [HalcyonCore]
+description: Manages Player Stats for halcyon server
+commands:
+  playerstats:
+    description: Shows a players current stats
+    usage: /playerstats
+
